@@ -1,7 +1,9 @@
 {
   "name": "egg-ts-cache",
   "version": "1.0.0",
-  "description": "缓存",
+  "description": "注解式缓存",
+  "main": "index.js",
+  "types": "index.d.ts",
   "eggPlugin": {
     "name": "tsCache"
   },
@@ -10,7 +12,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "tern": "^0.24.2"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -44,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-ts-cache.git"
+    "url": "git+https://github.com/CoCoyh/egg-ts-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/CoCoyh/egg-ts-cache/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-ts-cache#readme",
+  "homepage": "https://github.com/CoCoyh/egg-ts-cache#readme",
   "author": "coco",
   "license": "MIT"
 }
